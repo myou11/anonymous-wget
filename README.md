@@ -1,14 +1,16 @@
 **Author: Maxwell You**
+
 **Assignment: Anonymous wget**
 
 ## Setup
-The tar will contain a proj3 directory. Place this directory under the $GOPATH/src directory to ensure correct behavior.
+Place these files and directories under a `$GOPATH/src/proj3` directory to ensure correct behavior.
 
 ## Logistics
 My program will look for the default "chaingang.txt" in the proj3 directory. Otherwise it will look for the chainfile at the location specified.
 
 awget assumes the arguments will be provided in the order:
-    awget URL [chainfile]
+    
+    awget URL [chainfile]`
 
 If no port is specified for ss, an open port is chosen
 
